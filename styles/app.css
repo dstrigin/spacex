@@ -15,3 +15,14 @@
     overflow-y: scroll;
     border: black 1px solid;
 }
+
+.launchpad {
+    transition: r 120ms ease, fill 120ms ease, stroke-width 120ms ease;
+}
+
+.launchpad--active {
+    r: 8px;
+    fill: #ffd166;
+    stroke: #111111;
+    stroke-width: 2px;
+}
